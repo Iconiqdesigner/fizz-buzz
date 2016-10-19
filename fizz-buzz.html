@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fizz fizz, buzz buzz, oh what a relief it was!</title>
+<script type="text/javascript">
+function fizzBuzz() {
+  for (var num = 1; num <= 100; num++) {
+    if (num % 15 === 0) {
+      console.log('fizzbuzz');
+    } else if (num % 5 === 0) {
+      console.log('buzz')
+    } else if (num % 3 === 0) {
+      console.log('fizz')
+    } else {
+      console.log(num)
+    }
+  }
+}
+</script>
+</head>
+
+<body onload="fizzBuzz()">
+</body>
+</html>
